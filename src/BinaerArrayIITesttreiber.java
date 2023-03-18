@@ -17,8 +17,12 @@ public class BinaerArrayIITesttreiber {
                 matrix[i][j] = (int) (Math.random() * 2);
             }
         }
-
-        BinaerArrayII.ausgeben(matrix);
+        if (n == 0) {
+            System.out.println("Das übergebene Array ist null.");
+            return;
+        } else {
+            BinaerArrayII.ausgeben(matrix);
+        }
     }
 }
 
