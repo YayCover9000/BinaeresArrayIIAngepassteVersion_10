@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.lang.Math;
-import java.util.Random;
 
 public class BinaerArrayIITesttreiber {
     public static void main(String[] args) {
@@ -19,7 +18,6 @@ public class BinaerArrayIITesttreiber {
             }
         }
 
-        System.out.println("Matrix:");
         BinaerArrayII.ausgeben(matrix);
     }
 }

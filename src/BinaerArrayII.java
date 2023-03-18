@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class BinaerArrayII {
 
     public static void ausgeben(int[][] matrix) {
+        if (matrix == null) {
+            System.out.println("Das übergebene Array ist null.");
+            return;
+        }
         int count = 0;
         for (int i = 0; i < matrix.length; i++) {
             int zeros = 0;
