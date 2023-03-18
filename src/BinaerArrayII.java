@@ -17,7 +17,7 @@ public class BinaerArrayII {
             if (zeros % 2 == 0) {
                 System.out.print("Zeile " + i + ": ");
                 for (int j = 0; j < matrix[i].length; j++) {
-                    System.out.print(matrix[i][j] + " ");
+                    System.out.print(matrix[i][j]);
                 }
                 System.out.println();
                 count++;
