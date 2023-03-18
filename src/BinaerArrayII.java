@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class BinaerArrayII {
 
     public static void ausgeben(int[][] matrix) {
-        Scanner scanner = new Scanner(System.in);
         int count = 0;
         for (int i = 0; i < matrix.length; i++) {
             int zeros = 0;

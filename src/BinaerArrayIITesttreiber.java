@@ -22,22 +22,5 @@ public class BinaerArrayIITesttreiber {
         System.out.println("Matrix:");
         BinaerArrayII.ausgeben(matrix);
     }
-    public static int einlesen() {
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Geben Sie die Größe des Arrays ein:");
-            int n = scanner.nextInt();
-            return n;
-        }
-
-        public static int[][] initialisieren(int n) {
-            int[][] array = new int[n][n];
-            Random random = new Random();
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    array[i][j] = random.nextInt(2);
-                }
-            }
-            return array;
-        }
-    }
+}
 
